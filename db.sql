@@ -18,5 +18,5 @@ CREATE TABLE IF NOT EXISTS 'user' (
   'phone' char(11) DEFAULT NULL,
   'country' varchar(10) DEFAULT NULL,
   'domain' varchar(20) DEFAULT NULL,
-  'disabled' tinyint(1) NOT NULL DEFAULT '0',
+  'disabled' tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
